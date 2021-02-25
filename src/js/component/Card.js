@@ -1,6 +1,6 @@
 // Importing React && PropType
-import React from "react";
-import PropType from "prop-types";
+//import React from "react";
+import PropTypes from "prop-types";
 // Card Component
 const Card = props => {
 	return (
@@ -21,12 +21,12 @@ const Card = props => {
 		</div>
 	);
 };
-Card.PropType = {
-	imageUrl: PropType.string,
-	title: PropType.string,
-	description: PropType.string,
-	buttonUrl: PropType.string,
-	buttonLabel: PropType.string
+Card.propTypes = {
+	imageUrl: PropTypes.string,
+	title: PropTypes.string,
+	description: PropTypes.string,
+	buttonUrl: PropTypes.string,
+	buttonLabel: PropTypes.string
 };
 // Exporting Component
 export default Card;

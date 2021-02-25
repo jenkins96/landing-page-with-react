@@ -2,13 +2,15 @@ import React from "react";
 import NavBar from "./NavBar";
 import Jumbotron from "./Jumbotron";
 import Card from "./Card";
+import Footer from "./Footer";
+import PropTypes from "prop-types";
 
 //create your first component
 export function Home() {
 	return (
-		<div>
+		<div className = "container-fluid">
 			<NavBar />
-			<div className="container">
+			<div>
 				<Jumbotron />
 				<Card
 					imageUrl="https://dummyimage.com/500x325/000/fff"
@@ -38,8 +40,10 @@ export function Home() {
 					buttonUrl="#"
 					buttonLabel="Find Out More!"
 				/>
-				<Footer />
+                <Footer />
 			</div>
+			
 		</div>
+        
 	);
 }

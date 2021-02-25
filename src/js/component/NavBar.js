@@ -1,5 +1,5 @@
 // Importing React
-import React from "react";
+//import React from "react";
 // NavBar Component
 const NavBar = () => {
 	return (
