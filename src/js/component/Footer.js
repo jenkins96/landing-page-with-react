@@ -4,16 +4,8 @@ import React from "react";
 const Footer = () => {
 	return (
 		<div className=" bg-dark text-white">
-			<div className="container">
-				<div className="row">
-					<p className="text-center">
-						Copyright @
-						<a href="#" target="_blank">
-							Your Website
-						</a>
-						2019
-					</p>
-				</div>
+			<div className="row d-flex justify-content-center">
+				<p className="text-center">Copyright @ Your Website 2019</p>
 			</div>
 		</div>
 	);

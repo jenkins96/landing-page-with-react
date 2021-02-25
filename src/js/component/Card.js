@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 // Card Component
 const Card = props => {
 	return (
-		<div className="card w-25 float-left">
+		<div className="card w-25 d-flex justify-content-center float-left">
 			<img
 				className="card-img-top"
 				src={props.imageUrl}
