@@ -1,5 +1,5 @@
-// Importing React && PropType
-//import React from "react";
+// Importing React && PropTypes
+import React from "react";
 import PropTypes from "prop-types";
 // Card Component
 const Card = props => {
