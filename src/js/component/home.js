@@ -38,6 +38,7 @@ export function Home() {
 					buttonUrl="#"
 					buttonLabel="Find Out More!"
 				/>
+				<Footer />
 			</div>
 		</div>
 	);

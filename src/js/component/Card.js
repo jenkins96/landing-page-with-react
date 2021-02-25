@@ -12,6 +12,8 @@ const Card = props => {
 			<div className="card-body">
 				<h4 className="card-title">{props.title}</h4>
 				<p className="card-text">{props.description}</p>
+			</div>
+			<div className="card-footer text-muted d-flex justify-content-center">
 				<a href={props.buttonUrl} className="btn btn-primary">
 					{props.buttonLabel}
 				</a>

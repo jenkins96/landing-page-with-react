@@ -1,5 +1,6 @@
+// Importing React
 import React from "react";
-
+// NavBar Component
 const NavBar = () => {
 	return (
 		<div>
@@ -45,5 +46,5 @@ const NavBar = () => {
 		</div>
 	);
 };
-
+// Exporting Component
 export default NavBar;
