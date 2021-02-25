@@ -4,10 +4,10 @@ import PropType from "prop-types";
 // Card Component
 const Card = props => {
 	return (
-		<div className="card">
+		<div className="card w-25 float-left">
 			<img
 				className="card-img-top"
-				src={props.image}
+				src={props.imageUrl}
 				alt="Card image cap"></img>
 			<div className="card-body">
 				<h4 className="card-title">{props.title}</h4>
@@ -20,7 +20,7 @@ const Card = props => {
 	);
 };
 Card.PropType = {
-	image: PropType.string,
+	imageUrl: PropType.string,
 	title: PropType.string,
 	description: PropType.string,
 	buttonUrl: PropType.string,
